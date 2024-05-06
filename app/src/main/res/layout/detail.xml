@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Kiretria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/krietria"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <TextView
+        android:id="@+id/namamenumakanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_makanan"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <TextView
+        android:id="@+id/namamenuminuman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_minuman"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <TextView
+        android:id="@+id/jumlahporsimenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jumlah_porsi"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <TextView
+        android:id="@+id/TotalHarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_harga"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
